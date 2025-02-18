@@ -1,0 +1,830 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="mediaqueries.css" />
+  </head>
+  <body>
+    <nav id="desktop-nav">
+      <div class="logo"> Umesh Indla</div>
+      <div>
+        <ul class="nav-links">
+          <li><a href="#about">About</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#experience">Experience</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#Certificates">Certificates</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+    <nav id="hamburger-nav">
+      <div class="logo"> Umesh Indla</div>
+      <div class="hamburger-menu">
+        <div class="hamburger-icon" onclick="toggleMenu()">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <div class="menu-links">
+          <li><a href="#about" onclick="toggleMenu()">About</a></li>
+          <li><a href="#skills" onclick="toggleMenu()">Skills</a></li>
+          <li><a href="#experience" onclick="toggleMenu()">Experience</a></li>
+          <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
+          <li><a href="#certification" onclick="toggleMenu()">Certificates</a></li>
+          <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+        </div>
+      </div>
+    </nav>
+    <section id="profile">
+      <div class="section__pic-container">
+        <img src="./assets/profile-pic.png" alt=" Umesh Indla profile picture" />
+      </div>
+      <div class="section__text">
+        <p class="section__text__p1">Hello, I'm</p>
+        <h1 class="title"> Umesh I</h1>
+        <p class="section__text__p2">Full Stack Java Developer</p>
+        <div class="btn-container">
+          <button
+            class="btn btn-color-2"
+            onclick="window.open('./assets/resume.pdf')"
+          >
+            Download CV
+          </button>
+          <button class="btn btn-color-1" onclick="location.href='./#contact'">
+            Contact Info
+          </button>
+        </div>
+      </div>
+    </section>
+    <section id="about">
+      <p class="section__text__p1">Get To Know More</p>
+      <h1 class="title">About Me</h1>
+      <div class="section-container">
+        <div class="section__pic-container">
+          <img
+            src="./assets/about-pic.png"
+            alt="Profile picture"
+            class="about-pic"
+          />
+        </div>
+        <div class="about-details-container">
+          <div class="about-containers">
+            <div class="details-container">
+              <img
+                src="./assets/experience.png"
+                alt="Experience icon"
+                class="icon"
+              />
+              <h3>Experience</h3>
+              <p>6+ years <br />Full Stack Java Developer</p>
+            </div>
+            <div class="details-container">
+              <img
+                src="./assets/education.png"
+                alt="Education icon"
+                class="icon"
+              />
+              <h3>Education</h3>
+              <p>BTech, Information Technology<br />Masters, Information Science/Studies</p>
+            </div>
+          </div>
+          <div class="text-container">
+            <p>
+Hi, I'm Umesh Indla, a Fullstack Java Developer with over 7 years of experience. Throughout my career, I've worked extensively on both front-end and back-end technologies, gaining a deep understanding of building scalable and high-performance web applications.
+
+My expertise lies in Java, with proficiency in frameworks like Spring, Hibernate, and Java EE. Additionally, I have hands-on experience with front-end technologies such as React, Angular, and JavaScript. I've developed microservices, designed RESTful APIs, and integrated them with cloud platforms like AWS, Azure, and GCP. I'm also well-versed in modern DevOps practices, including setting up CI/CD pipelines, working with Docker, and deploying applications on Kubernetes.
+            </p>
+          </div>
+        </div>
+      </div>
+
+    </section>
+    <section id="skills">
+      <p class="section__text__p1">Explore My</p>
+      <h1 class="title">Skills</h1>
+      <div class="experience-details-container">
+        <div class="about-containers">
+          <div class="details-container">
+            <h2 class="experience-sub-title">Programming Languages</h2>
+            <div class="article-container">
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>C</h3>
+                  <p>Experienced</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>C++</h3>
+                  <p>Experienced</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>C#</h3>
+                  <p>Experienced</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Java</h3>
+                  <p>Intermediate</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Python</h3>
+                  <p>Intermediate</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Golang</h3>
+                  <p>Intermediate</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Javascript</h3>
+                  <p>Intermediate</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Perl</h3>
+                  <p>Intermediate</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Ruby</h3>
+                  <p>Intermediate</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>PHP</h3>
+                  <p>Intermediate</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Angular</h3>
+                  <p>Intermediate</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>node.js</h3>
+                  <p>Intermediate</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>React</h3>
+                  <p>Intermediate</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>R</h3>
+                  <p>Intermediate</p>
+                </div>
+              </article>
+            </div>
+          </div>
+          <div class="details-container">
+            <h2 class="experience-sub-title">DevOps Tools</h2>
+            <div class="article-container">
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Aws DevOps</h3>
+                  <p>Experienced</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>GitHub / Git</h3>
+                  <p>Intermediate</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>CI/CD</h3>
+                  <p>Intermediate</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Jenkins</h3>
+                  <p>Experienced</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Sonar Cube</h3>
+                  <p>Experienced</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Sast / Dast</h3>
+                  <p>Experienced</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Ansible</h3>
+                  <p>Experienced</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Puppet</h3>
+                  <p>Experienced</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Chef</h3>
+                  <p>Experienced</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Open shift</h3>
+                  <p>Experienced</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Rancher</h3>
+                  <p>Experienced</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Kafka</h3>
+                  <p>Experienced</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Kubernetes</h3>
+                  <p>Experienced</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Terraform</h3>
+                  <p>Experienced</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>AWS</h3>
+                  <p>Experienced</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Azure</h3>
+                  <p>Experienced</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>GCP</h3>
+                  <p>Experienced</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Scrum</h3>
+                  <p>Experienced</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Rest</h3>
+                  <p>Experienced</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Postgres</h3>
+                  <p>Experienced</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Kanban</h3>
+                  <p>Experienced</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Azure DevOps</h3>
+                  <p>Experienced</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Agile</h3>
+                  <p>Experienced</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>RabbitMQ</h3>
+                  <p>Experienced</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>MySQL</h3>
+                  <p>Experienced</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Postgresql</h3>
+                  <p>Experienced</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Networking</h3>
+                  <p>Experienced</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>API / AI</h3>
+                  <p>Experienced</p>
+                </div>
+              </article>
+
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+ 
+    <section id="experience">
+      <p class="section__text__p1">Explore My</p>
+      <h1 class="title">Experience</h1>
+      
+      <!-- Experience Cards -->
+      <div class="experience-card">
+        <h3>Jan 2023 – Present</h3>
+        <h2>Full Stack Software Engineer</h2>
+        <p>Fifth Third Bank, Remote</p>
+          <ul>
+            <li>Automated Application Deployment: Developed CI/CD pipelines using Jenkins, GitHub Actions, and GitLab CI, 
+streamlining Java Spring Boot application deployments and reducing manual interventions by 60%. </li>
+            <li>Proficient in Full-Stack Development: Built and optimized Java Spring Boot micro services, integrated with 
+React.js/Angular, and implemented RESTful and GraphQL APIs to enhance frontend-backend interactions. </li>
+            <li>Enhanced Application Security & Compliance: Implemented JWT, OAuth2, SSL/TLS encryption, and RBAC, ensuring 
+secure authentication and achieving compliance with ISO 27001 standards. </li>
+            <li>Led Scalable Cloud Deployments: Migrated and optimized Spring Boot and React.js applications on AWS, Azure, 
+and GCP, ensuring high availability and scalability. </li>
+            <li>Optimized Messaging & Event-Driven Systems: Integrated Apache Kafka and RabbitMQ for efficient async 
+processing and real-time event-driven architecture. </li>
+            <li>Gen AI Integration in Applications: Integrated OpenAI, LangChain, and Hugging Face models into Java-based 
+applications for chatbots, document processing, and intelligent search functionalities. </li>
+            <li>Advanced Monitoring & Alerting: Deployed Prometheus, Grafana, and Splunk for proactive monitoring, improving 
+incident detection and resolution by 40%. Integrated Nagios, New Relic, and Datadog for comprehensive 
+application health monitoring. </li>
+          </ul>
+      </div>
+    
+      <div class="experience-card">
+        <h3>Oct 2021 – Aug 2022</h3>
+        <h2>Full Stack Java Developer</h2>
+        <p>Infosys Pvt LTD, Hyderabad</p>
+        <ul>
+          <li>Cloud Service Integration: Developed and integrated AWS Lambda, Azure Functions, and Google Cloud Pub/Sub 
+within a unified Java Spring Boot architecture, enabling scalable event-driven processing and reducing 
+infrastructure costs by 25%. </li>
+          <li>Developed and secured scalable microservices using Spring Boot, implementing RESTful APIs (B2B) with Spring 
+REST, improving system integration efficiency by 40%. </li>
+          <li>Built interactive web applications (C2B) using Spring Web MVC, enhancing user experience by 35%. </li>
+          <li>Integrated Spring Security for authentication and authorization, leveraging OAuth2 and JWT, reducing security 
+vulnerabilities by 50%. </li>
+          <li>Designed and deployed microservices architecture on Spring Cloud, utilizing Eureka for service discovery and API 
+Gateway for centralized routing, improving scalability and fault tolerance by 60%. </li>
+          <li>Enhanced Logging & Performance Analytics: Integrated ELK Stack (Elasticsearch, Logstash, Kibana) and Splunk to 
+improve system observability, enabling real-time performance insights and proactive issue resolution. </li>
+
+          
+        </ul>        
+      </div>
+    
+      <div class="experience-card">
+        <h3>Nov 2018 – Sep 2021</h3>
+        <h2>Full Stack Java Developer</h2>
+        <p>Tata Consultancy Services, Hyderabad</p>
+        <ul>
+          <li>Worked closely with other business analysts, development teams and infrastructure specialists to deliver high 
+availability solutions for JAVA applications. </li>
+          <li>Designed and implemented reusable React components to streamline development and ensure consistency across 
+the application. </li>
+          <li>Gathered and defined customer requirements to develop clear specifications for project plans. </li>
+          <li>Developed back-end interfaces using SQL packages, stored procedures, Functions, Procedure, Anonymous SQL 
+programs, Exception Handling in PL/SQL programs. </li>
+          <li>Developed unit test cases using Mocha and Chai as unit test runner to test various React JS components.</li>
+          <li>Developed interactive UI components using React.js and integrated them with backend APIs. </li>
+          <li>Managed database operations using Hibernate and optimized queries for performance.</li>
+          <li>Implemented CI/CD pipelines with Jenkins, automating build and deployment processes. </li>
+          <li>Wrote unit and integration tests using JUnit and Mockito to ensure application stability. </li>
+          <li>Deployed applications on AWS and configured cloud-based storage solutions.</li>
+          <li>Integrated payment gateway (Stripe/PayPal) for secure transactions. </li>
+          <li>Implemented spring framework for Dependency Injection, support for the Data Access Object (DAO) pattern and 
+integration with Hibernate. </li>
+          <li>Used Spring Boot to build the Microservices for the system integrations. Developed static and dynamic Web Pages 
+using HTML5, CSS4, Angular9, Bootstrap </li>
+          <li>Created as well as consumed the SOAP as well as RESTful web services using SOAP, Secure LDAP (LDAPS) encrypts 
+LDAP traffic using SSL/TLS. </li>
+          <li>Used Microservices architecture with Spring Boot, Apache Kafka message broker, deployed to AWS.</li>
+        </ul>
+      </div>
+    
+    </section>
+    
+
+    <section id="projects">
+      <p class="section__text__p1">Browse My Recent</p>
+      <h1 class="title">Projects</h1>
+      <div class="experience-details-container">
+        <div class="about-containers">
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img
+                src="./assets/project-1.png"
+                alt="Project 1"
+                class="project-img"
+              />
+            </div>
+            <h2 class="experience-sub-title project-title">Microservices Project
+            </h2>
+            <div class="btn-container">
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="window.open('./assets/project-1.pdf')"
+              >
+                Link
+              </button>
+            </div>
+          </div>
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img
+                src="./assets/project-2.png"
+                alt="Project 2"
+                class="project-img"
+              />
+            </div>
+            <h2 class="experience-sub-title project-title">Game Day Analytics</h2>
+            <div class="btn-container">
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://drive.google.com/drive/folders/1yeekkRjwOdj2jBNmko7ruyiKLMqD_zVi?usp=sharing'"
+              >
+                Link
+              </button>
+            </div>
+          </div>
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img
+                src="./assets/project-3.png"
+                alt="Project 3"
+                class="project-img"
+              />
+            </div>
+            <h2 class="experience-sub-title project-title">DevSecOps Project</h2>
+            <div class="btn-container">
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="window.open('./assets/project-3.pdf')"
+              >
+                Link
+              </button>
+            </div>
+          </div>
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img
+                src="./assets/project-4.png"
+                alt="Project 4"
+                class="project-img"
+              />
+            </div>
+            <h2 class="experience-sub-title project-title">Cloud Voting Application
+            </h2>
+            <div class="btn-container">
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="window.open('./assets/project-4.pdf')"
+              >
+                Link
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </section>
+
+<section id="Certificates">
+      <p class="section__text__p1">Showcasing My</p>
+      <h1 class="title">Certificates</h1>
+      <div class="certification-container">
+          <div class="certification-card" onclick="openModal('modal1')">
+              <h3>On The Spot Award</h3>
+              <p>TCS GEMS</p>
+              <img src="./assets/spot.png" alt="On the spot award" class="certification-logo">
+          </div>
+      
+          <div class="certification-card" onclick="openModal('modal2')">
+              <h3>Master of Science: Information Systems</h3>
+              <p>The University of Utah</p>
+              <img src="./assets/master-degree.png" alt="Master Degree" class="certification-logo">
+          </div>
+
+          <div class="certification-card" onclick="openModal('modal3')">
+              <h3>Game Day - Analytics Challenge</h3>
+              <p>The University of Utah</p>
+              <img src="./assets/gameday.png" alt="Game Day" class="certification-logo">
+          </div>
+      </div>
+  </section>
+  
+  <!-- Modal for Larger Image -->
+  <div id="modal1" class="modal">
+      <span class="close" onclick="closeModal('modal1')">&times;</span>
+      <img class="modal-content" src="./assets/spot.png" alt="On the spot award">
+  </div>
+  
+  <div id="modal2" class="modal">
+      <span class="close" onclick="closeModal('modal2')">&times;</span>
+      <img class="modal-content" src="./assets/master-degree.png" alt="Master Degree">
+  </div>
+    
+    
+    <section id="contact">
+      <p class="section__text__p1">Get in Touch</p>
+      <h1 class="title">Contact Me</h1>
+      <div class="contact-info-upper-container">
+        <div class="contact-info-container">
+          <img
+            src="./assets/email.png"
+            alt="Email icon"
+            class="icon contact-icon email-icon"
+          />
+          <p><a href="mailto:umeshjavasbms@gmail.com">reachout2umesh@gmail.com</a></p>
+        </div>
+        <div class="contact-info-container">
+          <img
+            src="./assets/linkedin.png"
+            alt="LinkedIn icon"
+            class="icon contact-icon"
+          />
+          <p><a href="https://www.linkedin.com/in/umeshvarmachandra/">LinkedIn</a></p>
+        </div>
+      </div>
+    </section>
+    <footer>
+      <nav>
+        <div class="nav-links-container">
+          <ul class="nav-links">
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">About</a></li>
+            <li><a href="#experience">Experience</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#Certificates">Certificates</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+      </nav>
+      <p>Copyright &#169; 2024  Umesh Indla. All Rights Reserved.</p>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>

@@ -1,2 +1,1 @@
-# umeshchandra.github.io
-profile
+# umechand.github.io
